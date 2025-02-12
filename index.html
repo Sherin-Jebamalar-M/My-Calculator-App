@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calc</title>
+    <link rel="stylesheet" href="sass/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+
+</head>
+<body>
+    <section class="box">
+        <nav>
+            <div class="image"><img src="images/icon.png" alt="" style="height: 35px; width: 35px;"></div>
+            <div class="icons">
+            <p class="mini"><i class="fa fa-window-minimize"></i></p>
+            <p class="closee"><i class="fa fa-times"></i></p></div>
+        </nav>
+        <input type="text" readonly class="ip">
+    <div class="btns">
+        <span class="add bo">7</span>
+        <span class="add bo">8</span>
+        <span class="add bo">9</span>
+        <span class="add bo">+</span>
+        <span class="add bo" >4</span>
+        <span class="add bo">5</span>
+        <span class="add bo">6</span>
+        <span class="add bo">-</span>
+        <span class="add bo">3</span>
+        <span class="add bo">2</span>
+        <span class="add bo">1</span>
+        <span class="add bo">*</span>
+        <span class="bo boo" onclick="clearInput()">c</span>
+        <span class="add bo">0</span>
+        <span class="add bo booo">.</span>
+        <span class="add bo">/</span>
+        <span  class="bo boooo" onclick="calculate()">=</span>
+
+    </div>
+
+    </section>
+    
+    <script src="renderer.js"></script>
+</body>
+</html>

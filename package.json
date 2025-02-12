@@ -1,0 +1,25 @@
+{
+  "name": "my-calc",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "main.js",
+
+  "build": {
+  "appId": "com.sherrii.calc",
+  "productName": "MyCalculator",
+  "directories": {
+    "output": "dist"
+  }},
+  
+  "scripts": {
+    "start": "electron .",
+    "build":"electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^34.1.1",
+    "electron-builder": "^25.1.8"
+  }
+}

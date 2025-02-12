@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.box {
+  background-color: whitesmoke;
+  width: 100%;
+  height: 100vh;
+}
+.box nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  padding: 5px;
+  border-bottom: 2px solid orange;
+}
+.box nav .icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-right: 20px;
+}
+.box nav .icons p {
+  border: 1px solid black;
+  background-color: antiquewhite;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+.box nav .image {
+  margin-left: 10px;
+  -webkit-app-region: drag;
+}
+
+.ip {
+  height: 80px;
+  width: 100%;
+  margin-top: 15px;
+  border: none;
+  outline: none;
+  text-align: right;
+  background-color: transparent;
+  padding: 30px;
+  font-size: 20px;
+}
+
+.btns {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3px;
+  padding: 10px;
+  -webkit-app-region: no-drag;
+}
+.btns .bo {
+  width: 60px;
+  height: 52px;
+  background-color: #0c3a52;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.btns .boo {
+  grid-column: span 2;
+  width: 131px;
+  background-color: red;
+}
+.btns .booo {
+  grid-row: span 2;
+  height: 104px;
+}
+.btns .boooo {
+  grid-column: span 2;
+  width: 131px;
+}/*# sourceMappingURL=style.css.map */
