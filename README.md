@@ -8,7 +8,7 @@ A simple and lightweight desktop calculator built using **Electron.js**.
 - **Lightweight**: Runs smoothly without consuming much system resources.  
 
 ## Installation  
-1. Download the latest release from the [GitHub Releases](YOUR_GITHUB_RELEASE_LINK_HERE).  
+1. Download the latest release from the [GitHub Releases](https://github.com/Sherin-Jebamalar-M/My-Calculator-App/releases/tag/v1.0.0).  
 2. Extract the ZIP file and open the `MyCalculator.exe` file.  
 3. Start performing calculations!  
 
